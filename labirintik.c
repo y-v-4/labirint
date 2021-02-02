@@ -143,9 +143,9 @@ void print(int** Maze) {
             if (Maze[i][j] == ROUTE)
                 printf("  ");// Wskazuje drogę
             else if(Maze[i][j] == WALL)
-                printf("Е");// Reprezentuje ścianę
+                printf("aa");// Reprezentuje ścianę
             else
-               printf("*");//gracz
+               printf("**");//gracz
         }
         printf("\n");
     }
@@ -223,7 +223,7 @@ void explain() {
         char t;
         system("cls");
         printf("=================================================\n");
-printf ("The operation of the game is as follows：\n");
+printf ("The operation of the game is as follows\n");
 printf("\n1.Set the difficulty of the game or start playing immediately, initially there is an easy difficulty of the game\n");
 printf("\n2. Through w,s,a, d, the four character control keys move up and down to the left and right\n");
 printf("\n3. In any interface, press esc to return to the Main Menu\n");
